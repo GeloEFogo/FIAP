@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary-color: #0056b3;
+  --secondary-color: #007bff;
+  --text-color: #000;
+  --success-color: #28a745;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Lustria', serif;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.greeting {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 1rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.card-title {
+  font-size: 1.8rem;
+}
+
+.card-text {
+  font-size: 1.6rem;
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.float-right {
+  float: right;
+  margin-left: 1rem;
+  max-width: 100px;
+  height: auto;
+}
+
+.align-right {
+  float: right;
+  max-width: 100px;
+  height: auto;
+  margin-left: 1rem;
+}
